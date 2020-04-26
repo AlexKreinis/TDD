@@ -1,0 +1,21 @@
+.gameboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  height: 80vh;
+}
+.row {
+  display: flex;
+}
+.board-piece {
+  border: 1px solid black;
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  font-size: 0;
+}
+.selected {
+  background-color: red;
+}
