@@ -19,3 +19,31 @@
 .selected {
   background-color: red;
 }
+
+.next-button {
+  margin-top: 5px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #008cba;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.next-button:hover {
+  background-color: #073747;
+}
+
+.next-button:active {
+  background-color: #008cba;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h1 {
+  color: #008cba;
+  font-size: 30px;
+}

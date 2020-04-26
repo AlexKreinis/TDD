@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Game from "./components/Game.js";
 function App() {
   const table = [
@@ -12,7 +11,7 @@ function App() {
   ];
 
   return (
-    <div className="App">
+    <div className="App" style={{ textAlign: "center" }}>
       <Game initTable={table} />
     </div>
   );
